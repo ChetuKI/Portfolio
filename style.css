@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+}
+/* Header */
+.header-div {
+    height: 60px;
+    background-color: #707070d4;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    background-image: url(CHETAN\ -\ LOGO.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.header-text {
+    font-weight: 800;
+    font-size: larger;
+}
+
+.nav ul li{
+    list-style-type:none;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.nav ul li:hover{
+    color: rgb(12, 255, 133);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* About */
+
+.about-div{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff93;
+    border-bottom: 10px solid;
+}
+
+.about-bio{
+    width: 40%;
+    text-align: justify;
+}
+
+#about-heading1{
+    font-size: 65px;
+}
+
+#about-heading1::first-letter{
+    font-size: 85px;
+    color: rgba(255, 0, 0, 0.905);
+}
+.about-pic{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    background-image: url(CHETAN\ -\ PIC.jpg);
+    background-size: cover;
+    border: 15px solid rgb(15, 8, 8);
+}
+
+/* Skills */
+
+.skills-div{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#ffffff93;
+    border-bottom:10px solid ;
+}
+.skills-pics{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.skill-icon{
+    height:170px;
+    width: 200px;
+    margin: 15px;
+}
+
+.icon1 {
+    background-image: url(HTML\ icon.png);
+    background-size: cover;
+}
+.icon2 {
+    background-image: url(CSS-Logo.png);
+    background-size: cover;
+    width: 200px;
+}
+.icon3 {
+    background-image: url(JavaScript-Logo-2048x1280.png);
+    background-size: cover;
+}
+.icon4 {
+    background-image: url(letter_c_PNG22.png);
+    background-size: cover;
+    height: 200px;
+}
+.icon5 {
+    background-image: url(java-icon-png-15.jpg);
+    background-size: cover;
+    height: 200px;
+}
+.icon6 {
+    background-image: url(mySQL-icon.png);
+    background-size: cover;
+    height: 200px;
+}
+.programmer-pic {
+    height: 500px;
+    width: 500px;
+    border-radius: 50px;
+    border: 5px solid;
+    background-image: url(Programmer\ Pic.png);
+    background-size: cover;
+}
+/* Projects */
+.project-div{
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffffff93;
+    border-bottom:10px solid ;
+}
+
+.project {
+    height: 90%;
+    width: 35%;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+.p_one img {
+    height: 50%;
+    width: 100%;
+    border-radius: 25px 25px 0 0 ;
+}
+
+.project-desc h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.project-desc p {
+    text-align: justify;
+    margin: 0 30px 0 ;
+}
+
+.p_two img {
+    height: 50%;
+    width: 100%;
+    border-radius: 25px 25px 0 0 ;
+}
+
+/* Resume Section */
+.resume-div{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff93;
+    border-bottom:10px solid ;
+}
+
+.fa-linkedin , .fa-instagram {
+    font-size: 35px;
+    margin-right: 15px;
+}
+.fa-brands:hover {
+    color: tomato;
+}
+
+.download-btn {
+    font-size: 20px;
+    padding: 10px;
+    background-color: #f1f1f1da;
+    border-radius: 25px;
+}
+
+.download-btn:hover{
+    background-color: turquoise;
+}
+.resume-pic {
+    height: 90%;
+    width: 30%;
+    /* border-radius: 50%; */
+    background-image: url(CHETAN\ -\ PC1.jpg);
+    background-size: cover;
+    border: 15px solid rgb(15, 8, 8);
+}
+
+/* Contact */
+.contact-div{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff93;
+    border-bottom:10px solid ;
+}
+
+.contact-pic{
+    height: 60%;
+    width: 35%;
+    border-radius: 50%;
+    background-image: url(vector-contact-us-background.jpg);
+    background-size: cover;
+    border: 15px solid rgb(15, 8, 8);
+}
+
+/* Footer */
+
+.footer-div {
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffffff93;
+}
+
+.footer-desc a {
+    margin-left: 160px;   
+}
+.footer-desc p {
+    margin-left: 110px;
+}
+.footer-desc h3 {
+    font-size: 30px;
+}
